@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cities-test"
+version = "0.1.0"
+description = "Test case for CDNvideo"
+authors = ["Maxim Dvoretsky <mx.dvoretsky@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.112.1"}
+uvicorn = "^0.30.6"
+redis = "^5.0.8"
+aiohttp = "^3.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
